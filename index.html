@@ -7,7 +7,7 @@
     <title>Odoo</title>
   </head>
   <body>    
-    <nav class="navbar navbar-expand-lg sticky-top border-bottom bg-primary py-0">
+    <nav class="navbar navbar-expand-lg sticky-top border-bottom bg-brand-primary py-0">
       <div class="container border-bottom border-opacity-25 py-4">
         <a class="navbar-brand fw-semibold mb-0" href="#home">
           <img src="assets/icons/odoo-white.svg" class="brand-logo" alt="Odoo" width="90" />
@@ -38,8 +38,7 @@
       </div>
     </nav>
 
-    <!-- Mobile Offcanvas -->
-    <div class="offcanvas offcanvas-start bg-primary text-white d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas offcanvas-start bg-brand-primary text-white d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header border-bottom border-white border-opacity-25 py-4">
         <h5 class="offcanvas-title fw-semibold" id="offcanvasNavbarLabel">
           <img src="assets/icons/odoo-white.svg" alt="Odoo" width="90" />
@@ -63,6 +62,93 @@
         </div>
       </div>
     </div>
+
+    <section id="hero" class="bg-brand-primary pt-5 position-relative hero">
+      <div class="container">
+        <div class="row align-items-center justify-content-between text-white">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+            <div class="col-12 col-lg-6 mb-5">
+              <h1 class="mb-4">Development done right</h1>
+              <p>Build a beautiful, modern website with flexible components built from scratch.</p>
+            </div>
+            <a class="btn btn-app btn-light btn-lg mb-5" href="#getStarted">
+              Get started
+              <i data-lucide="plus" class="icon-md" aria-hidden="true"></i>
+            </a>
+            <div class="d-md-flex align-items-start gap-4">
+              <p>Trusted by:</p>
+              <div class="d-flex align-items-center gap-3 gap-md-4 flex-wrap">
+                <img src="assets/icons/google-white.svg" alt="Google" width="80" />
+                <img src="assets/icons/spotify-white.svg" alt="Spotify" width="80" />
+                <img src="assets/icons/airbnb-white.svg" alt="Airbnb" width="80" />
+                <img src="assets/icons/paypal-white.svg" alt="Paypal" width="80" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 bg-white py-5 px-4 text-dark hero-presentation-card mx-auto mx-lg-0">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <p class="mb-0 fw-semibold">Manage cards</p>
+              <button class="btn btn-light border-2 border-light-subtle btn-sm px-3 bg-white rounded-3" type="button">Add new</button>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="aspect-video bg-purple-card credit-card text-white w-100 rounded-4 p-4 mb-3 position-relative overflow-hidden user-select-none">
+                <img src="assets/img/bg-card.svg" class="z-0 position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-25" alt="" aria-hidden="true" />
+                <div class="z-1 position-relative h-100 d-flex flex-column justify-content-between">
+                  <div class="d-flex justify-content-between">
+                    <img src="assets/icons/mastercard.svg" alt="Mastercard" aria-hidden="true" class="h-100" />
+                    <span class="badge bg-brand-success fs-6">Active</span>
+                  </div>
+                  <div>
+                    <p class="text-uppercase mb-1">Card number</p>
+                    <h2 class="mb-0">4358 - 7421 - 9256 - 6682</h2>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="w-50">
+                      <p class="text-uppercase mb-1">Name</p>
+                      <p class="mb-0 fw-semibold">John Snow</p>
+                    </div>
+                    <div class="w-50">
+                      <p class="text-uppercase mb-1">Expiry date</p>
+                      <p class="mb-0 fw-semibold">11/23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="list-unstyled">
+              <li class="py-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mb-0 fw-semibold">Starbucks</p>
+                  <p class="mb-0 fw-semibold">$5.50 USD</p>
+                </div>
+                <p class="mb-0 text-muted">Pending - San Francisco, United States</p>
+              </li>
+              <li class="py-3 border-bottom">
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mb-0 fw-semibold">Nike Sports</p>
+                  <p class="mb-0 fw-semibold">$129.00 USD</p>
+                </div>
+                <p class="mb-0 text-muted">Pending - Lisbon, Portugal</p>
+              </li>
+            </ul>
+            <a class="btn btn-link align-self-start p-0 btn-link-dashed">
+              View all
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 start-0 w-100 hero-bottom">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="0,100 100,0 100,100" />
+        </svg>
+      </div>
+    </section>
+    
+    <section id="features" class="py-5">
+      <div class="container py-5">
+      </div>
+    </section>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>

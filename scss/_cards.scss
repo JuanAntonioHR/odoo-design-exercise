@@ -1,0 +1,31 @@
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+.hero-presentation-card {
+  max-width: 500px;
+  border-radius: $border-radius-xl $border-radius-xl 6rem $border-radius-xl;
+
+  @media (max-width: 575.98px) {
+    border-radius: $border-radius-xl;
+  }
+}
+
+.credit-card {
+  @media (max-width: 575.98px) {
+    h2 {
+      font-size: 1.25rem !important;
+    }
+    p {
+      font-size: 0.75rem !important;
+    }
+    svg {
+      width: 24px !important;
+      height: 24px !important;
+    }
+    .badge {
+      font-size: 0.75rem !important;
+      line-height: normal !important;
+    }
+  }
+}
