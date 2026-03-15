@@ -12,3 +12,5 @@ $custom-colors: (
   "purple-card": #1D1348,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+$progress-height: 3px;

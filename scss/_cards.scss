@@ -29,3 +29,20 @@
     }
   }
 }
+
+.feature-tools-card {
+  width: 480px !important;
+  left: calc(var(1.5rem)* 0.5);
+
+  @media (max-width: 575.98px) {
+    width: 310px !important;
+
+    .h6 {
+      font-size: 0.75rem !important;
+    }
+
+    .small {
+      font-size: 0.5rem !important;
+    }
+  }
+}
