@@ -5,6 +5,10 @@
   gap: $spacer * 1;
 }
 
+.btn-link-thick {
+  text-decoration-thickness: 2px;
+}
+
 .btn-link-dashed {
   text-decoration: underline;
   text-decoration-style: dashed;

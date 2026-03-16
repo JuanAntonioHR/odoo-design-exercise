@@ -1,11 +1,22 @@
 $icon-sizes: (
   sm: 12px,
   md: 16px,
+  lg: 24px,
 );
 
 @each $name, $size in $icon-sizes {
   .icon-#{$name} {
     width: $size;
     height: $size;
+  }
+}
+
+$icon-thickness: (
+  lg: 4px,
+);
+
+@each $name, $size in $icon-thickness {
+  .icon-thickness-#{$name} {
+    stroke-width: $size;
   }
 }

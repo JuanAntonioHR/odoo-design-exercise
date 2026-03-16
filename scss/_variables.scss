@@ -4,12 +4,15 @@ $btn-font-weight: 700;
 
 $headings-font-weight: 600;
 
+$card-border-color: var(--bs-light-border-subtle);
+
 $custom-colors: (
   "brand-primary": #038AFF,
   "brand-secondary": #161348,
   "brand-success": #5BCBA7,
   "brand-warning": #FDBD3D,
   "purple-card": #1D1348,
+  "gray": #CED6E1
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
