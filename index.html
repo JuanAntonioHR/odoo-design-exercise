@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Odoo</title>
   </head>
-  <>    
+  <body>    
     <nav class="navbar navbar-expand-lg sticky-top border-bottom bg-brand-primary py-0">
       <div class="container border-bottom border-opacity-25 py-4">
         <a class="navbar-brand fw-semibold mb-0" href="#home">
@@ -139,7 +139,7 @@
           </div>
         </div>
       </div>
-      <div class="position-absolute bottom-0 start-0 w-100 hero-bottom">
+      <div class="position-absolute bottom-0 start-0 w-100 polygon-divider">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon points="0,100 100,0 100,100" />
         </svg>
@@ -291,7 +291,7 @@
                     <img src="assets/img/person_02.jpg" alt="Person 2" class="rounded-circle position-absolute border border-white border-2" width="32" height="32">
                     <img src="assets/img/person_03.jpg" alt="Person 3" class="rounded-circle z-1 border border-white border-2" width="32" height="32">
                   </div>
-                  <hr class="divider-fade">
+                  <hr class="divider-fade-dark">
                   <div class="d-flex align-items-center justify-content-center gap-4">
                     <i data-lucide="paperclip" class="icon-md text-black-50" aria-hidden="true" ></i>
                     <i data-lucide="eye" class="icon-md text-black-50" aria-hidden="true" ></i>
@@ -468,6 +468,87 @@
         </div>
       </div>
     </section>
+
+    <footer class="bg-purple-card text-white pt-5 position-relative">
+      <div class="position-absolute top-0 start-0 w-100 polygon-divider">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="0,0 100,0 0,100" />
+        </svg>
+      </div>
+      <div class="container pt-0 mt-0 pt-md-5 mt-md-5">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+          <div class="col-12 col-lg-6">
+            <h3 class="mb-3">Brilliant solutions for your ideas</h3>
+            <p>Modern-looking websites.</p>
+          </div>
+          <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row justify-content-end gap-3 ">
+            <a href="#" class="btn btn-app btn-light btn-lg">
+              <i data-lucide="book" class="icon-md text-brand-primary" aria-hidden="true"></i>
+              Documentation
+            </a>
+            <a href="#" class="btn btn-app btn-brand-primary btn-lg text-white">
+              Purchase now
+            </a>
+          </div>
+        </div>
+        <hr class="divider-fade-light my-5">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3 mb-3">
+          <div class="col-12 col-lg-6">
+            <img src="assets/icons/odoo-white.svg" alt="Odoo Logo" width="100" class="mb-4">
+            <p class="col-12 col-md-8 text-gray">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h6 class="mb-4">Account</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="#" class="text-gray text-decoration-none">Profile</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Settings</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Billing</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Notifications</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h6 class="mb-4">About</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="#" class="text-gray text-decoration-none">Services</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Pricing</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Contact</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h6 class="mb-4">Company</h6>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="#" class="text-gray text-decoration-none">Community</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Help center</a></li>
+              <li><a href="#" class="text-gray text-decoration-none">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex gap-4">
+          <a href="#" class="text-gray text-decoration-none">
+            <i data-lucide="dribbble" class="icon-md" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="text-gray text-decoration-none">
+            <i data-lucide="github" class="icon-md" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="text-gray text-decoration-none">
+            <i data-lucide="instagram" class="icon-md" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="text-gray text-decoration-none">
+            <i data-lucide="facebook" class="icon-md" aria-hidden="true"></i>
+          </a>
+        </div>
+        <hr class="divider-fade-light my-5">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <p class="text-white">© Odoo. <span class="text-gray">All rights reserved</span></p>
+          <div class="d-flex gap-4">
+            <a href="#" class="text-gray text-decoration-none">Terms</a>
+            <a href="#" class="text-gray text-decoration-none">Privacy</a>
+            <a href="#" class="text-gray text-decoration-none">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
