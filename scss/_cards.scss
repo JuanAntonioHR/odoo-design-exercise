@@ -85,11 +85,12 @@
 .carousel-card {
   width: 15rem;
   flex-shrink: 0;
-  animation: sway 3s ease-in-out infinite alternate;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-  &:nth-child(even) {
-    animation-delay: -1.5s;
-  }
+.carousel-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-container {
@@ -117,14 +118,5 @@
   }
   100% {
     transform: translateX(-50%);
-  }
-}
-
-@keyframes sway {
-  0% {
-    transform: rotate(-2deg);
-  }
-  100% {
-    transform: rotate(2deg);
   }
 }
