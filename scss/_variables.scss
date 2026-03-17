@@ -6,6 +6,16 @@ $headings-font-weight: 600;
 
 $card-border-color: var(--bs-light-border-subtle);
 
+$accordion-border-width: 0px;
+$accordion-border-radius: 2rem;
+
+$accordion-button-padding-y: 1.5rem;
+$accordion-button-padding-x: 1.5rem;
+$accordion-button-icon: url('../assets/icons/plus.svg');
+$accordion-button-icon-active: url('../assets/icons/minus.svg');
+$accordion-button-icon-width: 12px;
+$accordion-button-icon-height: 12px;
+
 $custom-colors: (
   "brand-primary": #038AFF,
   "brand-secondary": #161348,
