@@ -82,3 +82,49 @@
   }
 }
 
+.carousel-card {
+  width: 15rem;
+  flex-shrink: 0;
+  animation: sway 3s ease-in-out infinite alternate;
+
+  &:nth-child(even) {
+    animation-delay: -1.5s;
+  }
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+
+  &:hover {
+    .carousel-track,
+    .carousel-card {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
