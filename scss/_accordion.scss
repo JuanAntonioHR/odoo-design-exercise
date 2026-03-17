@@ -25,7 +25,7 @@
     background-size: $accordion-button-icon-width $accordion-button-icon-height;
     background-repeat: no-repeat;
     background-position: center;
-    transition: transform 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
   }
 
   &:not(.collapsed) {
@@ -35,7 +35,6 @@
 
     &::after {
       background-image: $accordion-button-icon-active;
-      transform: rotate(180deg);
     }
   }
 
